@@ -99,9 +99,64 @@ body {
 }
 
 .header_title {
-     position: absolute;
-     right: 680px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    
 }
 
+.h1 {
+     margin: 0;
+     font-size: 209.87px;
+     font-style: normal;
+     font-weight: bold;
+     background: linear-gradient(180deg, #5596F9 18%, rgba(143, 161, 255, 0.20) 100%);
+     background-clip: text;
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
 
+}
 
+.haeder_mid_sections {
+     display: flex; 
+     justify-content: center;
+     margin: 0;
+}
+
+.pandora_silver_1 {
+     
+     width: 468.013px;
+     height: 615.103px;
+     border-radius: 49.476px;
+     background: rgba(0, 0, 0, 0.90);
+     box-shadow: 0px 4px 37px 0px rgba(0, 0, 0, 0.35);
+     color: #CBD6FF;
+}
+
+.img_braclet {
+     margin-left:60px;
+     width: 339px;
+     height: 139px;
+     object-fit: cover;
+}
+
+.pandora_silver_text_1 {
+     padding-top: 30px;
+     line-height: 10px;
+     font-size: 63px;
+     font-weight: bold;
+     text-align: center;
+}
+
+.pandora_silver_text_2 {
+     line-height: 10px;
+     font-size: 45px;
+     font-weight: bold;
+     text-align: center;
+}
+
+.pandora_silver_text_3  {
+     font-size: 36px;
+     font-weight: bold;
+     text-align: center;
+}
