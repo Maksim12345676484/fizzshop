@@ -1,0 +1,19 @@
+body {
+     font-family:Arial, Helvetica, sans-serif;
+     margin: 0;
+     width: 100%;
+}
+
+/*header*/
+
+.header {
+     background-color: FAFAFA;
+}
+
+.header_navigation_links {
+     display:flex;
+     justify-content: space-between;  
+}
+
+
+
