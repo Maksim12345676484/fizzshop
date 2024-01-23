@@ -1,5 +1,5 @@
 body {
-     font-family:Arial, Helvetica, sans-serif;
+     font-family:Russo one;
      margin: 0;
      width: 100%;
 }
@@ -8,6 +8,10 @@ body {
 
 .header {
      background-color: FAFAFA;
+}
+
+.header_top {
+     margin: 0;
 }
 
 .header_horizontal_bar  {
@@ -24,7 +28,7 @@ body {
      box-shadow: 0px 4px 37px 0px rgba(0, 0, 0, 0.35);
      cursor: pointer;
      color: #0500FF; 
-     font-size: 20px;
+     font-size: 24px;
      font-weight: bold;
 }
 
@@ -53,7 +57,7 @@ body {
      text-decoration: none;
      color: #000;
      font-size: 15px;
-     font-weight: bold;
+     font-weight: 400;
 }
 
 .header_search {
@@ -110,7 +114,7 @@ body {
      position:relative;
      font-size: 209.87px;
      font-style: normal;
-     font-weight: bold;
+     font-weight: 400;
      background: linear-gradient(180deg, #5596F9 18%, rgba(143, 161, 255, 0.20) 100%);
      background-clip: text;
      -webkit-background-clip: text;
@@ -121,12 +125,13 @@ body {
 .haeder_mid_sections {
      display: flex;
      justify-content: center;
+     gap: 50px;
 }
 
 .pandora_silver_1 {
      z-index: 1;
      width: 468.013px;
-     height: 615.103px;
+     height: 620.103px;
      border-radius: 49.476px;
      background: rgba(0, 0, 0, 0.90);
      box-shadow: 0px 4px 37px 0px rgba(0, 0, 0, 0.35);
@@ -140,23 +145,76 @@ body {
      object-fit: cover;
 }
 
-.pandora_silver_text_1 {
-     padding-top: 30px;
-     line-height: 10px;
-     font-size: 63px;
-     font-weight: bold;
+.pandora_silver_text { 
+     left: 60px;
      text-align: center;
+     width: 328.123px;
+     position: relative;
+     font-size: 58.449px;
+     font-weight: 400;
+     letter-spacing: -2px;
 }
 
 .pandora_silver_text_2 {
-     line-height: 10px;
-     font-size: 45px;
-     font-weight: bold;
+     left: 120px;
      text-align: center;
+     width: 228.123px;
+     position: relative;
+     font-size: 45px;
+     font-weight: 400;
+     letter-spacing: -2px;
 }
 
 .pandora_silver_text_3  {
      font-size: 36px;
-     font-weight: bold;
+     font-weight: 400;
      text-align: center;
+}
+
+.pandora_silver_2{
+     position: relative;   
+     bottom: 30px;
+     border-radius: 49.476px;
+     background: rgba(229, 229, 240, 0.90);
+     opacity: 85%;
+     box-shadow: 0px 4px 37px 0px rgba(0, 0, 0, 0.35);
+     height: 267.494px;
+     width: 534.872px;
+}
+
+.pandora_silver_text_2_3 {
+     display: flex;
+     justify-content: center;
+     gap: 60px;
+     position: relative;
+     bottom: 200px;
+}
+
+.pandora_silver_text_4 {
+     bottom: 30px;
+     left: 30px;
+     text-align: center;
+     width: 228.123px;
+     position: relative;
+     font-size: 45px;
+     font-weight: 400;
+     letter-spacing: -2px;
+}
+
+.pandora_silver_text_1 {
+     text-align: center;
+     width: 328.123px;
+     position: relative;
+     right: 20px;
+     top: 10px;
+     color: #000;
+     font-size: 58.449px;
+     font-weight: 400;
+     letter-spacing: -2px;
+}
+
+.img_braclets {
+     position: relative;
+     bottom:120px;
+     left: 50px;
 }
