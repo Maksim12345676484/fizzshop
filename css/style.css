@@ -1,21 +1,12 @@
 body {
-     font-family:Russo one;
+     font-family:russo one;
      margin: 0;
      width: 100%;
 }
 
 /*header-top*/
 
-.header {
-     background-color: FAFAFA;
-}
-
-.header_top {
-     margin: 0;
-}
-
 .header_horizontal_bar  {
-     background-color:  FAFAFA ;  
      padding-top: 10px; 
 }
 
@@ -54,10 +45,12 @@ body {
 }
 
 .navigation_link {
+     z-index: 1;
      text-decoration: none;
      color: #000;
      font-size: 15px;
      font-weight: 400;
+     transition: 0.7s;
 }
 
 .header_search {
