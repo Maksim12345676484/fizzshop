@@ -11,7 +11,8 @@ body {
 }
 
 .header_horizontal_bar  {
-     background-color:  FAFAFA ;   
+     background-color:  FAFAFA ;  
+     padding-top: 10px; 
 }
 
 .logo_top {
@@ -99,14 +100,14 @@ body {
 }
 
 .header_title {
-     display: flex;
-     justify-content: center;
-     align-items: center;
-    
+   display: flex;
+   justify-content: center;
 }
 
 .h1 {
      margin: 0;
+     top:100px;
+     position:relative;
      font-size: 209.87px;
      font-style: normal;
      font-weight: bold;
@@ -118,13 +119,12 @@ body {
 }
 
 .haeder_mid_sections {
-     display: flex; 
+     display: flex;
      justify-content: center;
-     margin: 0;
 }
 
 .pandora_silver_1 {
-     
+     z-index: 1;
      width: 468.013px;
      height: 615.103px;
      border-radius: 49.476px;
