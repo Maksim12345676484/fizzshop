@@ -1,6 +1,6 @@
 //animation header_navigstion_links
 
-var navigationLink = document.querySelectorAll('.navigation_link');
+const navigationLink = document.querySelectorAll('.navigation_link');
 
 navigationLink.forEach(function(element){
     element.addEventListener('mouseenter', function() {
@@ -14,7 +14,7 @@ element.addEventListener('mouseleave', function() {
 })
 //animation header_button_log_in
 
-var buttonLogIn = document.querySelector('.header_button_log_in');
+const buttonLogIn = document.querySelector('.header_button_log_in');
 
 buttonLogIn.addEventListener('mouseenter', function(){
     buttonLogIn.style.backgroundColor = '#f3efef'; 
@@ -27,14 +27,30 @@ buttonLogIn.addEventListener('mouseleave', function(){
 
 //animation header_section
 
-var pandoraSilverText1 = document.querySelector('.pandora_silver_text_1');
+const pandoraSilverText1 = document.querySelectorAll('.pandora_silver_text_1');
 
-pandoraSilverText1.addEventListener('mouseenter', function() {
-    pandoraSilverText1.style.fontSize = '68px';
-    pandoraSilverText1.style.left = '50px';
-});
 
-pandoraSilverText1.addEventListener('mouseleave', function(){
-    pandoraSilverText1.style.fontSize = ' 58.449px';
-    pandoraSilverText1.style.left = '0px';
-});
+pandoraSilverText1.forEach(function (element) {
+    element.addEventListener('mouseenter', function() {
+        element.style.fontSize = '63px';
+    });
+    
+    element.addEventListener('mouseleave', function(){
+        element.style.fontSize = ' 58.449px';
+    });
+})
+
+const pandoraSilverImg = document.querySelectorAll('.img_braclet ')
+
+pandoraSilverImg.forEach(function (element) {
+    element.addEventListener('mouseenter', function() {
+        element.style.width = '360px';
+        element.style.height = '160px';
+    })
+
+    element.addEventListener('mouseleave', function() {
+        element.style.width = '339px';
+        element.style.height = '139px';
+    })
+})
+
