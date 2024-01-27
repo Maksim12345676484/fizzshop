@@ -242,7 +242,7 @@ body {
      background: #000;
      box-shadow: 0px 4px 19.6px 0px rgba(0, 0, 0, 0.25) inset;
      color: #fff;
-     height: 1329px;
+     height: 1029px;
 }
 
 .main_category_title {
@@ -295,5 +295,25 @@ body {
      right: 20px;
 }
 
+/*ABOUT US*/
 
+.main_title_about_us {
+     text-align: center;
+     color: #000;
+     font-size: 90px;
+     font-style: normal;
+     font-weight: 400;
+}
 
+.main_about_us_text {
+     margin: auto;
+     width: 1145px;
+     font-weight: 100;
+     font-size: 40px;
+     font-family: 'Sanchez', serif;
+}
+
+.about_us_text  {
+     font-family:russo one;
+     font-weight: 400;
+}
