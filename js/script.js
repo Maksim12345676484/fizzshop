@@ -54,3 +54,22 @@ pandoraSilverImg.forEach(function (element) {
     })
 })
 
+//animation CATEGORY SECTION
+
+const categorySection = document.querySelectorAll('.category_section');
+
+categorySection.forEach(function(element){
+    element.addEventListener('mouseenter', function() {
+        element.style.width = '270px';
+        element.style.height = '420px';
+        element.style.boxShadow = 'none';
+})
+
+element.addEventListener('mouseleave', function() {
+    element.style.width = '250px';
+    element.style.height = '398px';
+    element.style.boxShadow = '0px 4px 37px 0px rgba(255, 255, 255, 0.25)';
+})
+
+})
+
