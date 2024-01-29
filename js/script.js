@@ -37,17 +37,14 @@ const pandoraSilverTextThree = document.querySelector('.pandora_silver_text_3')
 headerSectionOne.forEach(function(element) {
     element.addEventListener('mouseenter', function () {
         pandoraSilverText.style.fontSize = '80px';
-        pandoraSilverText.style.position = 'relative';
-        pandoraSilverText.style.top = ' 60px';
-        pandoraSilverText.style.left = '20px';
-        imgBraclet.style.position = 'relative';
-        imgBraclet.style.width = '400px';
+        pandoraSilverText.style.top = ' 50px';
+        pandoraSilverText.style.left = '10px';
+        imgBraclet.style.width = '410px';
         imgBraclet.style.bottom = '100px';
         pandoraSilverTextTwo.style.fontSize = '60px';
-        pandoraSilverTextTwo.style.position = 'relative';
         pandoraSilverTextTwo.style.bottom = '200px';
-        pandoraSilverTextTwo.style.left = '200px';
-        pandoraSilverTextThree.style.bottom = '240px'
+        pandoraSilverTextTwo.style.left = '220px';
+        pandoraSilverTextThree.style.bottom = '220px'
         pandoraSilverTextThree.style.left = '-70px'
     })
     element.addEventListener('mouseleave', function() {

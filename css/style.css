@@ -163,6 +163,7 @@ body {
 }
 
 .img_braclet {
+     position: relative;
      transition: 0.6s;
      margin-left:60px;
      width: 339px;
