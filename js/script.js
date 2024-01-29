@@ -27,30 +27,40 @@ buttonLogIn.addEventListener('mouseleave', function(){
 
 //animation header_section
 
-const pandoraSilverText1 = document.querySelectorAll('.pandora_silver_text_1');
+const headerSectionOne = document.querySelectorAll('.header_section_one');
+const imgBraclet = document.querySelector('.img_braclet');
+const pandoraSilverText = document.querySelector('.pandora_silver_text');
+const pandoraSilverTextTwo = document.querySelector('.pandora_silver_text_2');
+const pandoraSilverTextThree = document.querySelector('.pandora_silver_text_3')
 
 
-pandoraSilverText1.forEach(function (element) {
-    element.addEventListener('mouseenter', function() {
-        element.style.fontSize = '63px';
-    });
-    
-    element.addEventListener('mouseleave', function(){
-        element.style.fontSize = ' 58.449px';
-    });
-})
-
-const pandoraSilverImg = document.querySelectorAll('.img_braclet ')
-
-pandoraSilverImg.forEach(function (element) {
-    element.addEventListener('mouseenter', function() {
-        element.style.width = '360px';
-        element.style.height = '160px';
+headerSectionOne.forEach(function(element) {
+    element.addEventListener('mouseenter', function () {
+        pandoraSilverText.style.fontSize = '80px';
+        pandoraSilverText.style.position = 'relative';
+        pandoraSilverText.style.top = ' 60px';
+        pandoraSilverText.style.left = '20px';
+        imgBraclet.style.position = 'relative';
+        imgBraclet.style.width = '400px';
+        imgBraclet.style.bottom = '100px';
+        pandoraSilverTextTwo.style.fontSize = '60px';
+        pandoraSilverTextTwo.style.position = 'relative';
+        pandoraSilverTextTwo.style.bottom = '200px';
+        pandoraSilverTextTwo.style.left = '200px';
+        pandoraSilverTextThree.style.bottom = '240px'
+        pandoraSilverTextThree.style.left = '-70px'
     })
-
     element.addEventListener('mouseleave', function() {
-        element.style.width = '339px';
-        element.style.height = '139px';
+        pandoraSilverText.style.fontSize = '58.449px';
+        pandoraSilverText.style.top = '0';
+        pandoraSilverText.style.left = '60px';
+        imgBraclet.style.width = '339px';
+        imgBraclet.style.bottom = '0';
+        pandoraSilverTextTwo.style.fontSize = '45px';
+        pandoraSilverTextTwo.style.bottom = '0';
+        pandoraSilverTextTwo.style.left = '120px'; 
+        pandoraSilverTextThree.style.bottom = '0'
+        pandoraSilverTextThree.style.left = '-0'
     })
 })
 
@@ -72,4 +82,5 @@ element.addEventListener('mouseleave', function() {
 })
 
 })
+
 
