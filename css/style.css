@@ -72,6 +72,7 @@ body {
 
 .header_button_log_in {
      z-index: 1;
+     cursor: pointer;
      transition: 0.8s;
      color: #000;
      text-align: center;
@@ -160,6 +161,7 @@ body {
      background: rgba(0, 0, 0, 0.90);
      box-shadow: 0px 4px 37px 0px rgba(0, 0, 0, 0.35);
      color: #CBD6FF;
+     cursor: pointer;
 }
 
 .img_braclet {
@@ -208,6 +210,16 @@ body {
      bottom: 30px;
      border-radius: 49.476px;
      background: rgba(229, 229, 240, 0.90);
+     box-shadow: 0px 4px 37px 0px rgba(0, 0, 0, 0.35);
+     height: 267.494px;
+     width: 534.872px;
+}
+
+.pandora_silver_3{
+     position: relative;   
+     bottom: 30px;
+     border-radius: 49.476px;
+     background: rgba(255, 255, 255, 0.90);
      box-shadow: 0px 4px 37px 0px rgba(0, 0, 0, 0.35);
      height: 267.494px;
      width: 534.872px;
