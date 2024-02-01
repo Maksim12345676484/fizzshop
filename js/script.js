@@ -67,8 +67,8 @@ const categorySection = document.querySelectorAll('.category_section');
 
 categorySection.forEach(function(element){
     element.addEventListener('mouseenter', function() {
-        element.style.width = '270px';
-        element.style.height = '420px';
+        element.style.width = '257px';
+        element.style.height = '410px';
         element.style.boxShadow = 'none';
 })
 
